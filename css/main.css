@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+}
+
+#header{
+    text-align: center;
+    margin-top: 2vh;
+    color: white;
+    text-shadow: 1px 1px 15px black;
+}
+
+#label{
+    color: white;
+    text-shadow: 1px 1px 15px black;
+}
+
+#form{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 2vh;
+}
+
+#data_table{
+    display: block;
+    margin-top: 2vh;
+    text-align: left;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+    height: 900px;
+    max-height: 75%;
+    overflow-y: scroll;
+    cursor:pointer;
+}
+
+/* tbody {   
+    overflow-y: auto;  
+    overflow-x: hidden; 
+} */
+
+.clickable {
+    cursor: pointer;
+}
+
+.table {
+    height: 75%;
+    max-height: 75%;
+    overflow-y: scroll;
+}

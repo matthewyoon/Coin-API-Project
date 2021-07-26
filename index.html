@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/main.js" defer></script>
+<title>Coin API Project</title>
+</head>
+<body>
+
+    <div class="background">
+        <!-- <p>INSERT PHOTO CREDENTIAL HERE</p> -->
+    <div class="col-12 col-md-12" id="header">
+        <div class="row">
+            <h1>
+                COIN API
+            </h1>
+            <h2>
+                
+            </h2>
+        </div>
+    </div>
+
+    <form name="coin_data" id="form">
+        <label for="coin_name" id="label">Search:</label>
+        <input type="text" name="coin" id="coin_id" placeholder="BY ID ONLY: ie. ETH or BTC">
+        <button type="submit" id="submitButton">Submit</button>
+    </form>
+
+    <section class="col-12 col-md-12">
+        <div class="row">
+            <div class="list-group data-list">
+                <!-- <button type="button" id="clearButton" onclick="clear_data()">Clear All Data</button> -->
+                <table class="table table-dark" id="data_table">
+                    <thead>
+                      <tr class="clickable" data-href="">
+                        <th scope="col" id="asset_id">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Exchange Rate</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                  </table>
+
+            </div>
+        </div>
+    </section>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
